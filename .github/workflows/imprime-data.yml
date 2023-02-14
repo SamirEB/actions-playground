@@ -5,10 +5,10 @@ on:
 
 jobs:
   imprime_data_ubunto:
-    name: Imprime data atual
+    name: Imprime data atual i Ubuntu
     runs-on: ubuntu-latest
     
     steps: 
       - name: Imprime data atual - Ubuntu
-      run: date
+        run: date
     
